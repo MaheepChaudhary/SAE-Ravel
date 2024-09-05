@@ -1,0 +1,6 @@
+[submodule "openai_sae"]
+	path = openai_sae
+	url = https://github.com/openai/sparse_autoencoder
+[submodule "ravel"]
+	path = ravel
+	url = https://github.com/explanare/ravel
