@@ -1,0 +1,523 @@
+[
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Alpine is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Angeles is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Ankara is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Antioch is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Asheville is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Batman is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Beijing is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Bend is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Boulder is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Brandon is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Brooks is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Brussels is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Bryan is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Buffalo is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Calais is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Charlotte is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Churchill is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Cody is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Columbus is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Concord is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Conway is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Cork is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Cornwall is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Craig is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dallas is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dalton is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. David is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dawson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dayton is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Delhi is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Denver is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Detroit is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dickinson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dillon is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Douglas is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dover is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dubai is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Dublin is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Durham is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Edinburgh is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Edmonton is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Fargo is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Flint is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Fresno is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Gar is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Gary is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Guide is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Hail is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Hampton is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Hancock is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Hartford is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Helena is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Houston is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Hutchinson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Istanbul is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Jacksonville is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Jakarta is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Jasper is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Jerusalem is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Kabul is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Karachi is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Kyoto is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Lamar is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Lancaster is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Lansing is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Lawrence is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Lexington is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Liverpool is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Livingston is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Louisville is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Madison is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Mali is a city in the continent of",
+    "Africa"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Manila is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Marion is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Medina is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Memphis is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Meridian is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Mesa is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Minneapolis is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Mitchell is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Monroe is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Montgomery is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Montreal is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Mumbai is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Nashville is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Nelson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Newark is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Newport is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Nord is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Norfolk is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Norman is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Omaha is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Ontario is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Oral is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Orlando is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Palmer is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Pierre is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Powell is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Prescott is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Providence is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Quebec is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Quincy is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Raleigh is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Reno is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Reyes is a city in the continent of",
+    "South America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Rivera is a city in the continent of",
+    "South America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Rochester is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Santiago is a city in the continent of",
+    "South America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Santos is a city in the continent of",
+    "South America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Shanghai is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Sherman is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Shu is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Tak is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Tampa is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Thompson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Tucson is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Tulsa is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Tunis is a city in the continent of",
+    "Africa"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Vera is a city in the continent of",
+    "South America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Vernon is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Vienna is a city in the continent of",
+    "Europe"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Wales is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Wallace is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Wichita is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Wilmington is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Winchester is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Windsor is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Woodward is a city in the continent of",
+    "North America"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Ye is a city in the continent of",
+    "Asia"
+  ],
+  [
+    "Toronto is a city in the continent of North America. Beijing is a city in the continent of Asia. Miami is a city in the continent of North America. Santiago is a city in the continent of South America. London is a city in the continent of Europe. Zurich is a city in the continent of",
+    "Europe"
+  ]
+]
+
