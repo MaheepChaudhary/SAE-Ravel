@@ -46,12 +46,12 @@ chmod +x setup.sh run.sh eval_run.sh
 
 We ran the evaluation for 6 SAEs for the SAE for the Apollo research could be download just by changing id of wandb inside the [code](https://github.com/MaheepChaudhary/SAE-Ravel/blob/6da0beea4129a58af4af491dbd429cf0d1d95af6/models.py#L219). These are the following ids of 6 SAEs:
 
-* Layer 1 e2e SAE: bst0prdd 
-* Layer 1 e2e+ds SAE: e26jflpq
-* Layer 5 e2e SAE: tvj2owza 
-* Layer 5 e2e+ds SAE: 2lzle2f0
-* Layer 9 e2e SAE: vnfh4vpi 
-* Layer 9 e2e+ds SAE: u50mksr8 
+* Layer 1 e2e SAE: *bst0prdd*
+* Layer 1 e2e+ds SAE: *e26jflpq*
+* Layer 5 e2e SAE: *tvj2owza* 
+* Layer 5 e2e+ds SAE: *2lzle2f0*
+* Layer 9 e2e SAE: *vnfh4vpi*
+* Layer 9 e2e+ds SAE: *u50mksr8* 
 
 ## 🏋️ Training
 
