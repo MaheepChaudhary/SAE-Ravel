@@ -21,8 +21,11 @@ We compare them against neurons and [DAS](https://arxiv.org/abs/2303.02536) base
 
 The below graphs shows the performance:
 
-![](figures/continent.png)
-![](figures/country.png)
+<p align="center">
+  <img src="figures/continent.png" width="300" />
+  <img src="figures/country.png" width="300" />
+</p>
+
 
 ## Setup:
 
