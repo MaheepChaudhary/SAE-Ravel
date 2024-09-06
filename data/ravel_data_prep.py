@@ -65,11 +65,9 @@ if __name__ == "__main__":
     continent_data = continent_prompt(data, cities)
     language_data = language_prompt(data, cities)
 
-    with open('processed_data/country_data.json', 'w') as file:
+    with open('country_data.json', 'w') as file:
         json.dump(country_data, file)
     
-    with open('processed_data/continent_data.json', 'w') as file:
+    with open('continent_data.json', 'w') as file:
         json.dump(continent_data, file)
     
-    with open('processed_data/language_data.json', 'w') as file:
-        json.dump(language_data, file)

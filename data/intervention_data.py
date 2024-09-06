@@ -96,12 +96,12 @@ if __name__ == "__main__":
     model = LanguageModel("openai-community/gpt2", device_map="cuda:1")
     print(model)
     
-    with open("vanilla_data/continent_data.json", "r") as f:
+    with open("data/continent_data.json", "r") as f:
         continent_data = json.load(f)
 
 
-    with open("vanilla_data/country_data.json", "r") as f:
-       country_data = json.load(f)
+    with open("data/country_data.json", "r") as f:
+        country_data = json.load(f)
 
 
     analyse(model, continent_data,"continent")
@@ -109,10 +109,10 @@ if __name__ == "__main__":
 
 
 
-    with open("comfy_continent.json","r") as f:
+    with open("data/comfy_continent.json","r") as f:
         continent_data = json.load(f)
 
-    with open("comfy_country.json", "r") as f:
+    with open("data/comfy_country.json", "r") as f:
         country_data = json.load(f)
 
     

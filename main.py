@@ -65,10 +65,10 @@ def data_processing(
 
 def train_data_processing(task, intervention_divided_data, batch_size):
 
-    with open("final_data_continent.json", "r") as file:
+    with open("data/final_data_continent.json", "r") as file:
         continent_data = json.load(file)
 
-    with open("final_data_country.json", "r") as file:
+    with open("data/final_data_country.json", "r") as file:
         country_data = json.load(file)
 
     random.shuffle(country_data)
@@ -321,7 +321,7 @@ def train(
         )
         torch.save(
             training_model.state_dict(),
-            f"models/saved_model_{args.intervention_divided_data}_{args.method}_{args.model}_e{epoch}_lr{args.learning_rate}_layer{args.layer_intervened}.pth",
+            f"saved_models/saved_model_{args.intervention_divided_data}_{args.method}_{args.model}_e{epoch}_lr{args.learning_rate}_layer{args.layer_intervened}.pth",
         )
 
         # eval_model = my_model(
