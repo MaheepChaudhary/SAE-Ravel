@@ -8,7 +8,7 @@ pip install -r requirements.txt
 echo Installing the different SAE for OpenAI
 
 mkdir openai_saes/downloaded_saes
-for layer_index in {0..11}; do wget "https://openaipublic.blob.core.windows.net/sparse-autoencoder/gpt2-small/resid_post_mlp/autoencoders/${layer_index}.pt" -P ./openai_sae/downloaded_saes/; done
+for layer_index in {0..11}; do wget "https://openaipublic.blob.core.windows.net/sparse-autoencoder/gpt2-small/resid_post_mlp_v5_32k/autoencoders/${layer_index}.pt" -P ./openai_sae/downloaded_saes/; done
 
 echo Installing the different SAE for Bloom
 
