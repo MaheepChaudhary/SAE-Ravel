@@ -14,12 +14,15 @@ Access our paper on [ArXiv]().
 
 ## 📑 Table of Contents
 
-- [🔍 About](#about)
-- [📊 Result](#result)
-- [⚙️ Setup](#setup)
-- [🏋️ Training](#training)
-- [📈 Evaluation](#evaluation)
-- [📚 Citation](#citation)
+- [Official Repository for "Evaluating Open-Source Sparse Autoencoders on Disentangling Factual Knowledge in GPT-2 Small"](#official-repository-for-evaluating-open-source-sparse-autoencoders-on-disentangling-factual-knowledge-in-gpt-2-small)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [🔍 About](#-about)
+  - [📊 Result](#-result)
+  - [⚙️ Setup](#️-setup)
+  - [🏋️ Training](#️-training)
+  - [📈 Evaluation](#-evaluation)
+  - [📂 Directory Structure](#-directory-structure)
+  - [📚 Citation](#-citation)
 
 ## 🔍 About
 
@@ -68,6 +71,21 @@ The evaluation of SAE for their quality in terms of loss and accuracy can be exe
 ```
 ./eval_run.sh
 ```
+
+## 📂 Directory Structure
+
+Starting with the folders, the `./data/` folder contains all the data prepared and the `.py` files used for it. The `./figure/` folder contains all the related images. The `./saved_models/` is just a proxy folder where the models when saved are located.
+
+The individual files have the following meaning:
+
+* `imports.py`: contains all the libraries and modules to be imported
+* `models.py`: contains all the code for model preparation where intervention is being performed, apart from that it also contains the code for evaluating the SAEs. 
+* `main.py`: Runs the code in models.py for training the mask for every models and DAS, while doing intervention.
+* `eval_sae.py`: contains the code for running the evaluation function in `models.py`.
+* `visualisation.py`: contains the code for creating graphs.
+* `setup.sh`: contains the code to setup the environment and downloading the needed SAEs. 
+* `run.sh`: contains the code to run the script for running the files for training.
+* `eval_run.sh`: contains the code to running the SAE evaluation files.  
 
 ## 📚 Citation
 If you find this repository useful in your research, please consider citing our paper:
