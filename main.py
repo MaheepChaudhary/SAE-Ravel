@@ -1,7 +1,6 @@
-from eval_gpt2 import *
 from imports import *
 from models import *
-from ravel_data_prep import *
+from data.ravel_data_prep import *
 
 random.seed(2)
 
