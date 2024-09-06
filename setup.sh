@@ -2,8 +2,8 @@ pip install -r requirements.txt
 
 echo Installing the different SAE for OpenAI
 
-for layer_index in {0..11}; do wget "az://openaipublic/sparse-autoencoder/gpt2-small/your_location/autoencoders/${layer_index}.pt" -P ./autoencoders/; done
-
+mkdir openai_saes/downloaded_saes
+for layer_index in {0..11}; do wget "https://openaipublic.blob.core.windows.net/sparse-autoencoder/gpt2-small/resid_delta_mlp/autoencoders/${layer_index}.pt" -P ./openai_sae/downloaded_saes/; done
 echo Installing the different SAE for Bloom
 
 git lfs install

@@ -87,6 +87,8 @@ The individual files have the following meaning:
 * `run.sh`: contains the code to run the script for running the files for training.
 * `eval_run.sh`: contains the code to running the SAE evaluation files.  
 
+🔴 **NOTE:** The `run.sh` file contains the files to be run and should be edited to run for particular layer. The arguments of the script shell can be mapped using the arguments in the [code](https://github.com/MaheepChaudhary/SAE-Ravel/blob/826bd78cae8e23ddaaf48641091c4c9dd68c307d/main.py#L715-L791). 
+
 ## 📚 Citation
 If you find this repository useful in your research, please consider citing our paper:
 
