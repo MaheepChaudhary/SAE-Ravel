@@ -12,19 +12,24 @@ by [Maheep Chaudhary](https://maheepchaudhary.github.io) and [Atticus Geiger](ht
 
 Access our paper on [ArXiv]().
 
-We evaluate 
+## About
 
+We evaluate different open-source Sparse Autoencoders for GPT-2 small by different organisations, specifically by [OpenAI](https://github.com/openai/sparse_autoencoder), [Apollo Research](https://github.com/ApolloResearch/e2e_sae), and [Joseph Bloom](https://huggingface.co/jbloom/GPT2-Small-SAEs-Reformatted) on the [RAVEL](https://github.com/explanare/ravel) dataset.
+We compare them against neurons and [DAS](https://arxiv.org/abs/2303.02536) based on how much they are able to disentangle the concept in neurons or latent space.
 
+## Result
 
+The below graphs shows the performance:
 
-# Setup:
+![](figures/continent.png)
+![](figures/country.png)
+
+## Setup:
 
 The code is divided 
 
-# Abstract
-We ran on different apollos for SAEs. Here we have given the id of wandb of Apollo research SAEs. 
 
-# Citation:
+## Citation:
 If you find this repository useful in your research, please consider citing our paper:
 
 
