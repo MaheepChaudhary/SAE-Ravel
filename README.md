@@ -42,6 +42,12 @@ The below graphs show the performance:
 
 🔴 **NOTE:** The `run.sh` file contains the files to be run and should be edited to run for particular layer. The arguments of the script shell can be mapped using the arguments in the [code](https://github.com/MaheepChaudhary/SAE-Ravel/blob/826bd78cae8e23ddaaf48641091c4c9dd68c307d/main.py#L715-L791). It is advisable to make a new environment before running the any files. 
 
+First clone the repository:
+
+```
+git clone https://github.com/MaheepChaudhary/SAE-Ravel.git
+```
+
 To download different SAEs and set up the environment, one can run:
 
 ```
