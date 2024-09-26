@@ -10,7 +10,7 @@
 
 by [Maheep Chaudhary](https://maheepchaudhary.github.io) and [Atticus Geiger](https://atticusg.github.io).
 
-Access our paper on [ArXiv]().
+Access our paper on [ArXiv](https://arxiv.org/abs/2409.04478).
 
 ## 📑 Table of Contents
 
