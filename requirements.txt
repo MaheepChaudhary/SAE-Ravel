@@ -47,3 +47,7 @@ typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
 wandb==0.17.8
+datasets==2.18.0
+nnsight==0.2.21
+transformer-lens==1.9.1
+transformers==4.39.3

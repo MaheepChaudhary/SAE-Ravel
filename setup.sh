@@ -4,6 +4,7 @@ sudo apt autoremove
 sudo apt install python3.11 python3.11-venv python3.11-dev
 
 pip install -r requirements.txt
+pip install sae-lens
 
 echo Installing the different SAE for OpenAI
 
