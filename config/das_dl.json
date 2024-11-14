@@ -1,0 +1,7 @@
+{
+    "model": "gpt2",
+    "device": "mps",
+    "continent_data_path": "utils/data/final_data_continent.json",
+    "country_data_path": "utils/data/final_data_country.json",
+    "rotate_layer_size": 768
+}
