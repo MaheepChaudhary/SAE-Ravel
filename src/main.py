@@ -90,7 +90,7 @@ def train_data_processing(task, intervention_divided_data, batch_size):
             new_data1[sample_no][0][0] = sample[0][0]
             new_data1[sample_no][0][1] = sample[0][1]
             new_data1[sample_no][1][0] = sample[1][0]
-            new_data1[sample_no][1][1] = sample[0][1]
+            new_data1[sample_no][1][1] = sample[1][1]
 
         c = 0
         all_data_ = data2 +new_data1
