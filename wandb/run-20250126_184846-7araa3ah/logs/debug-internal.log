@@ -1,0 +1,189 @@
+2025-01-26 18:48:46,311 INFO    StreamThr :71378 [internal.py:wandb_internal():85] W&B internal server running at pid: 71378, started at: 2025-01-26 18:48:46.310776
+2025-01-26 18:48:46,312 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: status
+2025-01-26 18:48:46,315 INFO    WriterThread:71378 [datastore.py:open_for_write():87] open: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/run-7araa3ah.wandb
+2025-01-26 18:48:46,316 DEBUG   SenderThread:71378 [sender.py:send():379] send: header
+2025-01-26 18:48:46,333 DEBUG   SenderThread:71378 [sender.py:send():379] send: run
+2025-01-26 18:48:47,212 INFO    SenderThread:71378 [dir_watcher.py:__init__():211] watching files in: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files
+2025-01-26 18:48:47,212 INFO    SenderThread:71378 [sender.py:_start_run_threads():1188] run started: 7araa3ah with start time 1737897526.312106
+2025-01-26 18:48:47,224 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: check_version
+2025-01-26 18:48:47,224 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: check_version
+2025-01-26 18:48:47,561 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: run_start
+2025-01-26 18:48:47,572 DEBUG   HandlerThread:71378 [system_info.py:__init__():26] System info init
+2025-01-26 18:48:47,572 DEBUG   HandlerThread:71378 [system_info.py:__init__():41] System info init done
+2025-01-26 18:48:47,572 INFO    HandlerThread:71378 [system_monitor.py:start():194] Starting system monitor
+2025-01-26 18:48:47,572 INFO    SystemMonitor:71378 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-26 18:48:47,572 INFO    HandlerThread:71378 [system_monitor.py:probe():214] Collecting system info
+2025-01-26 18:48:47,573 INFO    SystemMonitor:71378 [interfaces.py:start():188] Started cpu monitoring
+2025-01-26 18:48:47,577 INFO    SystemMonitor:71378 [interfaces.py:start():188] Started disk monitoring
+2025-01-26 18:48:47,579 INFO    SystemMonitor:71378 [interfaces.py:start():188] Started gpuapple monitoring
+2025-01-26 18:48:47,582 INFO    SystemMonitor:71378 [interfaces.py:start():188] Started memory monitoring
+2025-01-26 18:48:47,582 INFO    SystemMonitor:71378 [interfaces.py:start():188] Started network monitoring
+2025-01-26 18:48:47,905 DEBUG   HandlerThread:71378 [system_info.py:probe():152] Probing system
+2025-01-26 18:48:47,908 DEBUG   HandlerThread:71378 [system_info.py:_probe_git():137] Probing git
+2025-01-26 18:48:47,919 DEBUG   HandlerThread:71378 [system_info.py:_probe_git():145] Probing git done
+2025-01-26 18:48:47,919 DEBUG   HandlerThread:71378 [system_info.py:probe():200] Probing system done
+2025-01-26 18:48:47,919 DEBUG   HandlerThread:71378 [system_monitor.py:probe():223] {'os': 'macOS-15.2-arm64-arm-64bit', 'python': '3.11.1', 'heartbeatAt': '2025-01-26T13:18:47.905413', 'startedAt': '2025-01-26T13:18:46.304871', 'docker': None, 'cuda': None, 'args': ('-a', 'country', '-tla', '61', '-method', 'neuron masking', '-e', '20', '-t', 'train', '-idd', 'country', '-bs', '16', '-wb', 'True', '-n', 't(10-0.1)_lr0.001_layer-5', '-lr', '0.001', '-lid', '5', '-d', 'mps'), 'state': 'running', 'program': '/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py', 'codePathLocal': 'src/main.py', 'codePath': 'src/main.py', 'git': {'remote': 'https://github.com/MaheepChaudhary/SAE-Ravel.git', 'commit': 'a882ea83a75a69990daeb2cb9db15b447188d6ac'}, 'email': 'chaudhary.maheep28@gmail.com', 'root': '/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel', 'host': 'Maheeps-MacBook-Pro.local', 'username': 'maheepchaudhary', 'executable': '/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', 'cpu_count': 11, 'cpu_count_logical': 11, 'cpu_freq': {'current': 4056, 'min': 696, 'max': 4056}, 'cpu_freq_per_core': [{'current': 4056, 'min': 696, 'max': 4056}], 'disk': {'/': {'total': 460.4317207336426, 'used': 10.431808471679688}}, 'gpuapple': {'type': 'Apple M3 Pro', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 18.0}}
+2025-01-26 18:48:47,920 INFO    HandlerThread:71378 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-26 18:48:47,920 INFO    HandlerThread:71378 [system_monitor.py:probe():227] Publishing system info
+2025-01-26 18:48:47,920 INFO    HandlerThread:71378 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-26 18:48:47,922 DEBUG   SenderThread:71378 [sender.py:send():379] send: files
+2025-01-26 18:48:47,922 INFO    SenderThread:71378 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-01-26 18:48:47,999 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-26 18:48:47,999 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: python_packages
+2025-01-26 18:48:48,000 DEBUG   SenderThread:71378 [sender.py:send():379] send: telemetry
+2025-01-26 18:48:48,000 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:48:48,000 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:48:48,000 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:48:48,220 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/requirements.txt
+2025-01-26 18:48:48,221 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-metadata.json
+2025-01-26 18:48:48,353 DEBUG   SenderThread:71378 [sender.py:send():379] send: telemetry
+2025-01-26 18:48:48,353 DEBUG   SenderThread:71378 [sender.py:send():379] send: run
+2025-01-26 18:48:48,689 INFO    SenderThread:71378 [sender.py:send_run():1035] updated run: 7araa3ah
+2025-01-26 18:48:49,005 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:48:49,223 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/config.yaml
+2025-01-26 18:48:49,248 INFO    wandb-upload_0:71378 [upload_job.py:push():130] Uploaded file /var/folders/_x/mkf1szd12yv28px5ztl_sjjr0000gn/T/tmpeu6w70tkwandb/t0m9rez6-wandb-metadata.json
+2025-01-26 18:48:50,010 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:48:50,120 DEBUG   SenderThread:71378 [sender.py:send():379] send: exit
+2025-01-26 18:48:50,120 INFO    SenderThread:71378 [sender.py:send_exit():586] handling exit code: 1
+2025-01-26 18:48:50,120 INFO    SenderThread:71378 [sender.py:send_exit():588] handling runtime: 2
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:send_exit():594] send defer
+2025-01-26 18:48:50,121 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 0
+2025-01-26 18:48:50,121 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 1
+2025-01-26 18:48:50,121 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 1
+2025-01-26 18:48:50,121 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-01-26 18:48:50,121 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 2
+2025-01-26 18:48:50,121 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 2
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-26 18:48:50,121 DEBUG   SystemMonitor:71378 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-26 18:48:50,121 DEBUG   SystemMonitor:71378 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [interfaces.py:finish():200] Joined cpu monitor
+2025-01-26 18:48:50,121 DEBUG   SystemMonitor:71378 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-26 18:48:50,121 INFO    HandlerThread:71378 [interfaces.py:finish():200] Joined disk monitor
+2025-01-26 18:48:50,224 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-summary.json
+2025-01-26 18:48:50,224 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/output.log
+2025-01-26 18:48:50,337 INFO    HandlerThread:71378 [interfaces.py:finish():200] Joined gpuapple monitor
+2025-01-26 18:48:50,337 INFO    HandlerThread:71378 [interfaces.py:finish():200] Joined memory monitor
+2025-01-26 18:48:50,337 INFO    HandlerThread:71378 [interfaces.py:finish():200] Joined network monitor
+2025-01-26 18:48:50,337 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 3
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send():379] send: telemetry
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send():379] send: stats
+2025-01-26 18:48:50,338 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,338 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 3
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 4
+2025-01-26 18:48:50,338 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,338 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 4
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 5
+2025-01-26 18:48:50,338 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,338 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 5
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send():379] send: summary
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-26 18:48:50,338 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-01-26 18:48:50,338 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 6
+2025-01-26 18:48:50,338 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,338 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 6
+2025-01-26 18:48:50,339 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,339 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-01-26 18:48:50,340 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:48:50,648 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 7
+2025-01-26 18:48:50,649 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:50,649 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 7
+2025-01-26 18:48:50,649 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:50,649 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-01-26 18:48:51,122 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-26 18:48:51,230 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-summary.json
+2025-01-26 18:48:51,230 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/config.yaml
+2025-01-26 18:48:51,649 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 8
+2025-01-26 18:48:51,650 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: poll_exit
+2025-01-26 18:48:51,650 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:51,650 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 8
+2025-01-26 18:48:51,651 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:51,651 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-01-26 18:48:51,651 INFO    SenderThread:71378 [job_builder.py:build():440] Attempting to build job artifact
+2025-01-26 18:48:51,652 INFO    SenderThread:71378 [job_builder.py:_get_source_type():569] is repo sourced job
+2025-01-26 18:48:51,686 INFO    SenderThread:71378 [job_builder.py:build():545] adding wandb-job metadata file
+2025-01-26 18:48:51,688 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 9
+2025-01-26 18:48:51,688 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:51,688 DEBUG   SenderThread:71378 [sender.py:send():379] send: artifact
+2025-01-26 18:48:51,688 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 9
+2025-01-26 18:48:52,124 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-26 18:48:52,235 INFO    Thread-12 :71378 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/output.log
+2025-01-26 18:48:53,473 INFO    SenderThread:71378 [sender.py:send_artifact():1537] sent artifact job-https___github.com_MaheepChaudhary_SAE-Ravel.git_src_main.py - {'id': 'QXJ0aWZhY3Q6MTQ2NzgwNDg1NQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU0OTI4MDY4Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQ2NzgwNDg1NQ==', 'versionIndex': 0}}}
+2025-01-26 18:48:53,473 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:53,473 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-01-26 18:48:53,473 INFO    SenderThread:71378 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-26 18:48:54,245 INFO    SenderThread:71378 [dir_watcher.py:finish():388] scan: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files
+2025-01-26 18:48:54,245 INFO    SenderThread:71378 [dir_watcher.py:finish():402] scan save: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/requirements.txt requirements.txt
+2025-01-26 18:48:54,246 INFO    SenderThread:71378 [dir_watcher.py:finish():402] scan save: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/output.log output.log
+2025-01-26 18:48:54,247 INFO    SenderThread:71378 [dir_watcher.py:finish():402] scan save: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/config.yaml config.yaml
+2025-01-26 18:48:54,249 INFO    SenderThread:71378 [dir_watcher.py:finish():402] scan save: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-summary.json wandb-summary.json
+2025-01-26 18:48:54,251 INFO    SenderThread:71378 [dir_watcher.py:finish():402] scan save: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-metadata.json wandb-metadata.json
+2025-01-26 18:48:54,252 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 10
+2025-01-26 18:48:54,252 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: poll_exit
+2025-01-26 18:48:54,254 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:54,254 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 10
+2025-01-26 18:48:54,254 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:54,255 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-01-26 18:48:54,255 INFO    SenderThread:71378 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-26 18:48:55,129 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-26 18:48:55,130 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: poll_exit
+2025-01-26 18:48:55,152 INFO    wandb-upload_0:71378 [upload_job.py:push():130] Uploaded file /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/requirements.txt
+2025-01-26 18:48:55,154 INFO    wandb-upload_1:71378 [upload_job.py:push():130] Uploaded file /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/output.log
+2025-01-26 18:48:55,154 INFO    wandb-upload_3:71378 [upload_job.py:push():130] Uploaded file /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/wandb-summary.json
+2025-01-26 18:48:55,409 INFO    wandb-upload_2:71378 [upload_job.py:push():130] Uploaded file /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/files/config.yaml
+2025-01-26 18:48:55,613 INFO    Thread-11 (_thread_body):71378 [sender.py:transition_state():614] send defer: 11
+2025-01-26 18:48:55,614 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:55,614 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 11
+2025-01-26 18:48:55,614 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:55,614 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-01-26 18:48:55,614 INFO    SenderThread:71378 [file_pusher.py:join():175] waiting for file pusher
+2025-01-26 18:48:55,615 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 12
+2025-01-26 18:48:55,615 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:55,615 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 12
+2025-01-26 18:48:55,615 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:55,615 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-01-26 18:48:55,616 INFO    SenderThread:71378 [file_stream.py:finish():601] file stream finish called
+2025-01-26 18:48:55,940 INFO    SenderThread:71378 [file_stream.py:finish():605] file stream finish is done
+2025-01-26 18:48:55,940 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 13
+2025-01-26 18:48:55,941 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:55,941 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 13
+2025-01-26 18:48:55,941 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:55,941 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-01-26 18:48:55,942 INFO    SenderThread:71378 [sender.py:transition_state():614] send defer: 14
+2025-01-26 18:48:55,942 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: defer
+2025-01-26 18:48:55,942 INFO    HandlerThread:71378 [handler.py:handle_request_defer():184] handle defer: 14
+2025-01-26 18:48:55,942 DEBUG   SenderThread:71378 [sender.py:send():379] send: final
+2025-01-26 18:48:55,942 DEBUG   SenderThread:71378 [sender.py:send():379] send: footer
+2025-01-26 18:48:55,942 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: defer
+2025-01-26 18:48:55,942 INFO    SenderThread:71378 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-01-26 18:48:55,943 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-26 18:48:55,944 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: poll_exit
+2025-01-26 18:48:55,944 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: server_info
+2025-01-26 18:48:55,944 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-26 18:48:55,944 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: server_info
+2025-01-26 18:48:55,947 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: get_summary
+2025-01-26 18:48:55,947 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: sampled_history
+2025-01-26 18:48:55,947 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:48:56,240 DEBUG   SenderThread:71378 [sender.py:send_request():406] send_request: poll_exit
+2025-01-26 18:48:56,241 INFO    MainThread:71378 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2025-01-26 18:48:56,241 INFO    MainThread:71378 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2025-01-26 18:48:56,241 INFO    MainThread:71378 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2025-01-26 18:48:56,242 DEBUG   HandlerThread:71378 [handler.py:handle_request():158] handle_request: shutdown
+2025-01-26 18:48:56,242 INFO    HandlerThread:71378 [handler.py:finish():882] shutting down handler
+2025-01-26 18:48:56,948 INFO    WriterThread:71378 [datastore.py:close():296] close: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_184846-7araa3ah/run-7araa3ah.wandb
+2025-01-26 18:48:57,246 INFO    SenderThread:71378 [sender.py:finish():1615] shutting down sender
+2025-01-26 18:48:57,246 INFO    SenderThread:71378 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-26 18:48:57,246 INFO    SenderThread:71378 [file_pusher.py:join():175] waiting for file pusher

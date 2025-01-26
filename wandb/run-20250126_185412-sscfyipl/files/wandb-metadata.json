@@ -1,0 +1,74 @@
+{
+    "os": "macOS-15.2-arm64-arm-64bit",
+    "python": "3.11.1",
+    "heartbeatAt": "2025-01-26T13:24:13.646730",
+    "startedAt": "2025-01-26T13:24:12.029817",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-a",
+        "country",
+        "-tla",
+        "61",
+        "-method",
+        "neuron masking",
+        "-e",
+        "20",
+        "-t",
+        "train",
+        "-idd",
+        "country",
+        "-bs",
+        "16",
+        "-wb",
+        "True",
+        "-n",
+        "t(10-0.1)_lr0.001_layer-5",
+        "-lr",
+        "0.001",
+        "-lid",
+        "5",
+        "-d",
+        "mps"
+    ],
+    "state": "running",
+    "program": "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py",
+    "codePathLocal": "src/main.py",
+    "codePath": "src/main.py",
+    "git": {
+        "remote": "https://github.com/MaheepChaudhary/SAE-Ravel.git",
+        "commit": "a882ea83a75a69990daeb2cb9db15b447188d6ac"
+    },
+    "email": "chaudhary.maheep28@gmail.com",
+    "root": "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel",
+    "host": "Maheeps-MacBook-Pro.local",
+    "username": "maheepchaudhary",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "cpu_count": 11,
+    "cpu_count_logical": 11,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 696,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 696,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 10.431808471679688
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M3 Pro",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 18.0
+    }
+}

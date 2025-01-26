@@ -1,10 +1,14 @@
 import argparse
 import json
 import os
+import sys
 import random
 from functools import partial
 from pathlib import Path
 from pprint import pprint
+
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append("/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/utils")
 
 import einops
 import matplotlib.pyplot as plt

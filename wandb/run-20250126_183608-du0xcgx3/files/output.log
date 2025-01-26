@@ -1,0 +1,10 @@
+
+l4_mask: requires_grad=True
+Traceback (most recent call last):
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py", line 831, in <module>
+    ) = train_data_processing(
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py", line 68, in train_data_processing
+    with open("data/final_data_continent.json", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/final_data_continent.json'

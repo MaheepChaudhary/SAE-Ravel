@@ -65,10 +65,10 @@ def data_processing(
 
 def train_data_processing(task, intervention_divided_data, batch_size):
 
-    with open("data/final_data_continent.json", "r") as file:
+    with open("utils/data/final_data_continent.json", "r") as file:
         continent_data = json.load(file)
 
-    with open("data/final_data_country.json", "r") as file:
+    with open("utils/data/final_data_country.json", "r") as file:
         country_data = json.load(file)
 
     random.shuffle(country_data)

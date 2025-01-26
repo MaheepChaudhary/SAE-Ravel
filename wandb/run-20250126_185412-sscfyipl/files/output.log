@@ -1,0 +1,32 @@
+l4_mask: requires_grad=True
+Baseline Accuracy: 0.565625
+Temp Schedule lenght is 2800
+Finsihed
+torch.Size([16, 61, 768])
+torch.Size([16, 768])
+torch.Size([1, 61, 768])
+100%|██████████████████████████| 140/140 [00:00<00:00, 123491.60it/s]
+  0%|                                         | 0/20 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py", line 882, in <module>
+    train(
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py", line 277, in train
+    intervened_base_output, predicted_text = training_model(
+                                             ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/models.py", line 247, in forward
+    with self.model.trace() as tracer:
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/nnsight/contexts/Runner.py", line 41, in __exit__
+    raise exc_val
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/models.py", line 254, in forward
+    with tracer.invoke(base_ids) as runner_:
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/nnsight/contexts/Invoker.py", line 91, in __exit__
+    raise exc_val
+  File "/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/models.py", line 267, in forward
+    intermediate_output.shape
+AssertionError

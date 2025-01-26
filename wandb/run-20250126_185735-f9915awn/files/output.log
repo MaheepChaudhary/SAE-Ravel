@@ -1,0 +1,5 @@
+l4_mask: requires_grad=True
+Baseline Accuracy: 0.565625
+Temp Schedule lenght is 2800
+Finsihed
+100%|██████████████████████████| 140/140 [00:00<00:00, 177456.20it/s]

@@ -249,7 +249,7 @@ class my_model(nn.Module):
                 with tracer.invoke(source_ids) as runner:
                     vector_source = self.model.transformer.h[
                         self.layer_intervened
-                    ].output[0][0]
+                    ].output[0]
 
                 with tracer.invoke(base_ids) as runner_:
                     intermediate_output = (
@@ -261,11 +261,11 @@ class my_model(nn.Module):
                         :, self.intervened_token_idx, :
                     ] + l4_mask_sigmoid * vector_source[:, self.intervened_token_idx, :]
                     assert (
-                        intermediate_output.squeeze(1).shape
-                        == vector_source[:, self.intervened_token_idx, :].shape
+                        intermediate_output.shape
+                        == vector_source[:, self.intervened_token_idx, :].squeeze(1).shape
                         == torch.Size([self.batch_size, 768])
                     )
-                    self.model.transformer.h[self.layer_intervened].output[0][0][
+                    self.model.transformer.h[self.layer_intervened].output[0][
                         :, self.intervened_token_idx, :
                     ] = intermediate_output.squeeze(1)
                     # self.model.transformer.h[self.layer_intervened].output[0][0][:,self.intervened_token_idx,:] = vector_source[:,self.intervened_token_idx,:]

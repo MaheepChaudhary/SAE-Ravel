@@ -1,0 +1,126 @@
+2025-01-26 18:57:35,533 INFO    StreamThr :85713 [internal.py:wandb_internal():85] W&B internal server running at pid: 85713, started at: 2025-01-26 18:57:35.531902
+2025-01-26 18:57:35,534 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status
+2025-01-26 18:57:35,537 INFO    WriterThread:85713 [datastore.py:open_for_write():87] open: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/run-f9915awn.wandb
+2025-01-26 18:57:35,538 DEBUG   SenderThread:85713 [sender.py:send():379] send: header
+2025-01-26 18:57:35,561 DEBUG   SenderThread:85713 [sender.py:send():379] send: run
+2025-01-26 18:57:36,312 INFO    SenderThread:85713 [dir_watcher.py:__init__():211] watching files in: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files
+2025-01-26 18:57:36,313 INFO    SenderThread:85713 [sender.py:_start_run_threads():1188] run started: f9915awn with start time 1737898055.533067
+2025-01-26 18:57:36,323 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: check_version
+2025-01-26 18:57:36,323 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: check_version
+2025-01-26 18:57:36,623 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: run_start
+2025-01-26 18:57:36,632 DEBUG   HandlerThread:85713 [system_info.py:__init__():26] System info init
+2025-01-26 18:57:36,632 DEBUG   HandlerThread:85713 [system_info.py:__init__():41] System info init done
+2025-01-26 18:57:36,632 INFO    HandlerThread:85713 [system_monitor.py:start():194] Starting system monitor
+2025-01-26 18:57:36,632 INFO    SystemMonitor:85713 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-26 18:57:36,632 INFO    HandlerThread:85713 [system_monitor.py:probe():214] Collecting system info
+2025-01-26 18:57:36,634 INFO    SystemMonitor:85713 [interfaces.py:start():188] Started cpu monitoring
+2025-01-26 18:57:36,638 INFO    SystemMonitor:85713 [interfaces.py:start():188] Started disk monitoring
+2025-01-26 18:57:36,639 INFO    SystemMonitor:85713 [interfaces.py:start():188] Started gpuapple monitoring
+2025-01-26 18:57:36,640 INFO    SystemMonitor:85713 [interfaces.py:start():188] Started memory monitoring
+2025-01-26 18:57:36,641 INFO    SystemMonitor:85713 [interfaces.py:start():188] Started network monitoring
+2025-01-26 18:57:37,025 DEBUG   HandlerThread:85713 [system_info.py:probe():152] Probing system
+2025-01-26 18:57:37,028 DEBUG   HandlerThread:85713 [system_info.py:_probe_git():137] Probing git
+2025-01-26 18:57:37,039 DEBUG   HandlerThread:85713 [system_info.py:_probe_git():145] Probing git done
+2025-01-26 18:57:37,040 DEBUG   HandlerThread:85713 [system_info.py:probe():200] Probing system done
+2025-01-26 18:57:37,040 DEBUG   HandlerThread:85713 [system_monitor.py:probe():223] {'os': 'macOS-15.2-arm64-arm-64bit', 'python': '3.11.1', 'heartbeatAt': '2025-01-26T13:27:37.025534', 'startedAt': '2025-01-26T13:27:35.519977', 'docker': None, 'cuda': None, 'args': ('-a', 'country', '-tla', '61', '-method', 'neuron masking', '-e', '20', '-t', 'train', '-idd', 'country', '-bs', '16', '-wb', 'True', '-n', 't(10-0.1)_lr0.001_layer-5', '-lr', '0.001', '-lid', '5', '-d', 'mps'), 'state': 'running', 'program': '/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/src/main.py', 'codePathLocal': 'src/main.py', 'codePath': 'src/main.py', 'git': {'remote': 'https://github.com/MaheepChaudhary/SAE-Ravel.git', 'commit': 'a882ea83a75a69990daeb2cb9db15b447188d6ac'}, 'email': 'chaudhary.maheep28@gmail.com', 'root': '/Users/maheepchaudhary/pytorch/Projects/SAE-Ravel', 'host': 'Maheeps-MacBook-Pro.local', 'username': 'maheepchaudhary', 'executable': '/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', 'cpu_count': 11, 'cpu_count_logical': 11, 'cpu_freq': {'current': 4056, 'min': 696, 'max': 4056}, 'cpu_freq_per_core': [{'current': 4056, 'min': 696, 'max': 4056}], 'disk': {'/': {'total': 460.4317207336426, 'used': 10.431808471679688}}, 'gpuapple': {'type': 'Apple M3 Pro', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 18.0}}
+2025-01-26 18:57:37,040 INFO    HandlerThread:85713 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-26 18:57:37,040 INFO    HandlerThread:85713 [system_monitor.py:probe():227] Publishing system info
+2025-01-26 18:57:37,040 INFO    HandlerThread:85713 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-26 18:57:37,042 DEBUG   SenderThread:85713 [sender.py:send():379] send: files
+2025-01-26 18:57:37,042 INFO    SenderThread:85713 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-01-26 18:57:37,119 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-26 18:57:37,119 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: python_packages
+2025-01-26 18:57:37,119 DEBUG   SenderThread:85713 [sender.py:send():379] send: telemetry
+2025-01-26 18:57:37,119 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:57:37,119 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:57:37,120 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:37,321 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/requirements.txt
+2025-01-26 18:57:37,322 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/wandb-metadata.json
+2025-01-26 18:57:37,511 DEBUG   SenderThread:85713 [sender.py:send():379] send: telemetry
+2025-01-26 18:57:37,511 DEBUG   SenderThread:85713 [sender.py:send():379] send: run
+2025-01-26 18:57:37,823 INFO    SenderThread:85713 [sender.py:send_run():1035] updated run: f9915awn
+2025-01-26 18:57:38,124 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:38,185 INFO    wandb-upload_0:85713 [upload_job.py:push():130] Uploaded file /var/folders/_x/mkf1szd12yv28px5ztl_sjjr0000gn/T/tmpn6z5y6nnwandb/nhloegb8-wandb-metadata.json
+2025-01-26 18:57:38,322 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/config.yaml
+2025-01-26 18:57:38,322 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/output.log
+2025-01-26 18:57:39,127 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:40,127 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:40,332 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/output.log
+2025-01-26 18:57:41,132 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:41,175 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:57:42,137 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:43,142 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:44,147 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:45,152 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:46,157 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:47,127 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:57:47,160 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:48,165 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:49,168 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:50,174 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-26 18:57:52,215 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:57:52,215 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:57:52,216 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:57:58,138 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:03,143 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:07,127 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:58:07,127 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:58:08,630 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:09,481 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/config.yaml
+2025-01-26 18:58:14,147 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:19,150 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:22,124 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:58:22,125 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:58:24,582 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:30,166 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:36,170 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:36,636 DEBUG   SystemMonitor:85713 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-26 18:58:36,637 DEBUG   SenderThread:85713 [sender.py:send():379] send: telemetry
+2025-01-26 18:58:36,637 DEBUG   SenderThread:85713 [sender.py:send():379] send: stats
+2025-01-26 18:58:37,126 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:58:37,126 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:58:41,634 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:42,628 INFO    Thread-12 :85713 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/maheepchaudhary/pytorch/Projects/SAE-Ravel/wandb/run-20250126_185735-f9915awn/files/config.yaml
+2025-01-26 18:58:47,169 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:52,129 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:58:52,131 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:58:52,567 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:58:58,183 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:03,188 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:06,641 DEBUG   SenderThread:85713 [sender.py:send():379] send: stats
+2025-01-26 18:59:07,134 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:59:07,135 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:59:08,491 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:14,204 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:19,219 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:22,139 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:59:22,139 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:59:24,559 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:30,221 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:35,226 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:36,647 DEBUG   SenderThread:85713 [sender.py:send():379] send: stats
+2025-01-26 18:59:37,139 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:59:37,139 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:59:40,633 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:46,238 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:51,244 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 18:59:52,144 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 18:59:52,144 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 18:59:56,527 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:02,236 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:06,654 DEBUG   SenderThread:85713 [sender.py:send():379] send: stats
+2025-01-26 19:00:07,148 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-26 19:00:07,148 DEBUG   SenderThread:85713 [sender.py:send_request():406] send_request: stop_status
+2025-01-26 19:00:07,476 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:13,247 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:18,257 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:23,277 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:28,296 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:33,321 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:36,657 DEBUG   SenderThread:85713 [sender.py:send():379] send: stats
+2025-01-26 19:00:38,668 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:43,686 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:48,712 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:53,736 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:00:58,762 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
+2025-01-26 19:01:03,783 DEBUG   HandlerThread:85713 [handler.py:handle_request():158] handle_request: status_report
